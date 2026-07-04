@@ -1,5 +1,11 @@
 # Gemini Vision Bridge
 
+<p align="center">
+  <img src="assets/banner-dark.png" alt="Gemini Vision Bridge" width="100%">
+</p>
+
+<br>
+
 **Give vision to any text-only LLM or AI agent — no built-in vision model required.**
 
 DeepSeek, Llama, Mistral, and most open-weight models **can't see images**. This tool bridges that gap by delegating image understanding to the Gemini 2.5 Flash API — free tier, fast, and with zero changes to your primary model.
