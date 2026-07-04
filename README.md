@@ -16,18 +16,11 @@ DeepSeek, Llama, Mistral, and most open-weight models **can't see images**. This
 
 ---
 
-## How It Works
+## Architecture
 
-```mermaid
-flowchart LR
-    A["Image input<br/>URL &middot; local file &middot; base64"] --> B["Gemini Vision Bridge<br/><i>vision_pipeline.py</i>"]
-    B --> C["Gemini 2.5 Flash<br/>Vision API"]
-    C --> D["Detailed text<br/>description"]
-    D --> E["Your text-only LLM<br/>DeepSeek &middot; Llama &middot; Mistral &middot; any agent"]
-
-    style B fill:#4285f4,color:#fff
-    style C fill:#34a853,color:#fff
-```
+<p align="center">
+  <img src="assets/vision_arch.png" alt="Gemini Vision Bridge Architecture" width="100%">
+</p>
 
 - **No** dedicated vision model needed
 - **No** GPU / VRAM required
