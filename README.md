@@ -10,7 +10,6 @@
 
 DeepSeek, Llama, Mistral, and most open-weight models **can't see images**. This tool bridges that gap by delegating image understanding to the Gemini 2.5 Flash API — free tier, fast, and with zero changes to your primary model.
 
-![Python](https://img.shields.io/badge/python-3.9%2B-blue)
 ![Dependencies](https://img.shields.io/badge/dependencies-none-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
